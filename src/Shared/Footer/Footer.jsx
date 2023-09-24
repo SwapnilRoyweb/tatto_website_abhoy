@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <footer className="footer mx-auto w-11/12 px-8 py-3 rounded-xl bg-gradient-to-r from-black to-slate-800 text-neutral-content flex items-center justify-evenly my-8">
+        <footer className="footer mx-auto w-11/12 px-8 py-5 lg:py-3 rounded-xl bg-gradient-to-r from-black to-slate-800 text-neutral-content flex flex-col md:flex-row items-center justify-around my-8">
             <aside className="flex items-center">
                 <img src={logo} alt="" className='h-28' />
                 <p className='text-white text-2xl font-bold'>A Touch of INK</p>
