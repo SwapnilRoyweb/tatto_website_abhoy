@@ -6,7 +6,7 @@ const About = () => {
         <div>
             <div className='bg-gradient-to-r from-black to-slate-700 flex flex-col lg:flex-row items-center lg:items-start justify-evenly gap-5 lg:gap-10 w-full min-h-screen'>
                 <div className='w-1/2'>
-                    <img src={pic} alt="" className='w-11/12 h-fit lg:my-24 mx-auto ml-5 lg:ml-20 rounded-3xl' />
+                    <img src={pic} alt="" className='w-11/12 h-fit mt-24 lg:my-24 mx-auto ml-5 lg:ml-20 rounded-3xl' />
                 </div>
                 <div className='w-1/2 text-white mx-20 mt-10 lg:mt-32'>
                     <div>
