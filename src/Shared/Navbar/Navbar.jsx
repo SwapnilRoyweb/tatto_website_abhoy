@@ -13,7 +13,7 @@ const Navbar = () => {
         <li><Link to='' className='flex items-center'><FaHome/>Home</Link></li>
         <li><Link to='' className='flex items-center'><SiAlchemy/>Designs</Link></li>
         <li><Link to='' className='flex items-center'><MdWorkspacePremium/>My Works</Link></li>
-        <li><Link to='' className='flex items-center'><RiContactsFill/>About Me</Link></li>
+        <li><Link to='/about' className='flex items-center'><RiContactsFill/>About Me</Link></li>
         <li><Link to='' className='flex items-center'><MdContactMail/>Contact</Link></li>
     </>
 
