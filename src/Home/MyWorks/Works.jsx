@@ -24,6 +24,7 @@ import img22 from '../../assets/Client_Works/IMG_20230621_173606631.jpg'
 import img23 from '../../assets/Client_Works/IMG_20230906_000102078.jpg'
 import img24 from '../../assets/Client_Works/IMG_20230621_194948059.jpg'
 import img25 from '../../assets/Client_Works/f461dac4fbfac4ec6d6c522a667d6c1b.jpg'
+import { FcLike } from "react-icons/fc";
 
 
 const Works = () => {
@@ -32,179 +33,179 @@ const Works = () => {
             <div className='mx-20'>
                 <h1 className='text-white text-center mt-24 bg-gradient-to-r from-slate-500 to-blue-800 py-3 rounded-2xl text-3xl uppercase font-bold border border-b-2 border-x-2 border-t-0 shadow-inner shadow-white'>My Works</h1>
             </div>
-            <div className='flex flex-col items-center justify-center w-full md:flex-row flex-wrap gap-5 my-10'>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+            <div className='flex flex-col items-center justify-center w-full md:flex-row flex-wrap gap-10 my-10'>
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Snake</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img1} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Trident</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img2} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">OM with Peacock Feather</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img3} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Sign with Letters</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img4} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">OM with Shiva</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img5} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Letter Words</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img6} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Foreign Words with meaning</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img7} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Foot Eye</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img8} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Shiva</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img9} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Ganesha</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img10} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Sign in Hand</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img11} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Flower sign in Hand</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img12} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Name in Finger</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img13} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Shiva Word</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img14} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Sign in Side hand</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img15} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Couple Tattoo</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img16} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Name with Sign</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img17} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Trident 2</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img18} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Lakshmi</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img19} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Tik-Tak-Toe</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img20} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Peacock Feather in Back</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img21} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Trident 3</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img22} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Trident 4</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img23} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Trident 5</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img24} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
-                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl">
-                    <div className="card-body text-white">
+                <div className="rounded-2xl w-96 bg-gradient-to-l from-blue-500 to-slate-800 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="card-body text-white flex flex-row justify-between">
                         <h2 className="card-title">Trident Eye</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <button className='btn btn-circle'><FcLike className='text-xl'/></button>
                     </div>
                     <figure><img src={img25} alt="Shoes" className='w-full h-72 rounded-2xl'/></figure>
                 </div>
