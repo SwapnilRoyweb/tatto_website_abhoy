@@ -14,11 +14,12 @@ const Banner = () => {
     return (
         <div className='min-h-screen bg-gradient-to-r from-black to-slate-700'>
             <img src={background} className='min-h-screen w-screen' alt="" />
-            <div className='flex flex-col md:flex-row gap-10 items-center justify-center absolute -bottom-8 w-full h-full'>
-                <div className='mx-auto lg:ml-20 text-white w-80 md:w-96 lg:w-1/2'>
-                    <h1 className='text-5xl font-bold text-white uppercase mb-5'>A TOUCH of INK</h1>
-                    <p>Choosing a certified and skilled tattoo artist is essential to ensure your safety, receive a high-quality piece of body art and have a positive overall experience.</p>
-                    <button className='btn btn-outline btn-error btn-wide mt-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>Click me <GiSelfLove></GiSelfLove></button>
+            <div className='flex flex-col md:flex-row gap-8 items-center justify-center absolute -bottom-8 w-full h-full'>
+                <div className='mx-auto lg:ml-20 text-white w-80 md:w-96 lg:w-1/2 text-center lg:text-left'>
+                    <h1 className='text-4xl lg:text-5xl text-center lg:text-left font-bold text-white uppercase mb-3'>A TOUCH of INK</h1>
+                    <p className='mb-3 lg:mb-5 text-sm'>Choosing a certified and skilled tattoo artist is essential to ensure your safety, receive a high-quality piece of body art and have a positive overall experience.</p>
+                    <p className='mb-5 text-base lg:text-lg'>This is <span className='font-bold'>Abhoy Das Antu</span>. A Tattoo 3 Certified Artist. Tattoo 3 is an indian advanced tattoo training center. I have learned advanced necessary techniques to perform this art.</p>
+                    <button className='btn btn-outline btn-error btn-wide mt-3 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>Click me <GiSelfLove></GiSelfLove></button>
                 </div>
                 {/* <img src={img1} alt="" className='mr-5 lg:mr-20' /> */}
                 <div className='mx-5 lg:mr-20 w-1/2'>
