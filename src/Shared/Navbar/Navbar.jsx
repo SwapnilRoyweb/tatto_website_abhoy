@@ -10,25 +10,17 @@ import { GrContactInfo } from "react-icons/gr";
 const Navbar = () => {
 
     const navItems = <>
-        <li><Link to='' className='flex items-center'><FaHome/>Home</Link></li>
-        <li><Link to='' className='flex items-center'><SiAlchemy/>Designs</Link></li>
-        <li><Link to='/myWorks' className='flex items-center'><MdWorkspacePremium/>My Works</Link></li>
-        <li><Link to='/about' className='flex items-center'><RiContactsFill/>About Me</Link></li>
-        <li><Link to='' className='flex items-center'><MdContactMail/>Contact</Link></li>
+        <li><Link to='' className='flex items-center'><FaHome />Home</Link></li>
+        <li><Link to='' className='flex items-center'><SiAlchemy />Designs</Link></li>
+        <li><Link to='/myWorks' className='flex items-center'><MdWorkspacePremium />My Works</Link></li>
+        <li><Link to='/about' className='flex items-center'><RiContactsFill />About Me</Link></li>
+        <li><Link to='' className='flex items-center'><MdContactMail />Contact</Link></li>
     </>
 
     return (
         <div className="navbar fixed bg-black bg-opacity-30 text-white">
             <div className="navbar-start">
-                <div className="dropdown">
-                    <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </label>
-                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-1 shadow bg-black fixed bg-opacity-30 rounded-box w-32">
-                        {navItems}
-                    </ul>
-                </div>
-                <div className='flex flex-col items-center justify-center ml-5 lg:ml-10'>
+                <div className='flex flex-col items-center justify-center ml-16'>
                     <img src={logo} alt="" className='h-12' />
                     <a className="font-bold text-xs">A Touch of INK</a>
                 </div>
@@ -39,7 +31,15 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className='btn btn-disabled mr-5'>Subscribe</button>
+                <div className="dropdown">
+                    <label tabIndex={0} className="btn btn-ghost lg:hidden mr-16">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-1 shadow bg-black fixed bg-opacity-30 rounded-box w-32">
+                        {navItems}
+                    </ul>
+                </div>
+                {/* <button className='btn btn-disabled mr-5'>Subscribe</button> */}
             </div>
         </div>
     );
