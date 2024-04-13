@@ -10,11 +10,11 @@ import { GrContactInfo } from "react-icons/gr";
 const Navbar = () => {
 
     const navItems = <>
-        <li><Link to='' className='flex items-center'><FaHome /><span>Home</span></Link></li>
+        <li><Link to='/' className='flex items-center'><FaHome /><span>Home</span></Link></li>
         <li><Link to='' className='flex items-center'><SiAlchemy />Designs</Link></li>
         <li><Link to='/myWorks' className='flex items-center'><MdWorkspacePremium />My Works</Link></li>
         <li><Link to='/about' className='flex items-center'><RiContactsFill />About Me</Link></li>
-        <li><Link to='' className='flex items-center'><MdContactMail />Contact</Link></li>
+        <li><Link to='/contact' className='flex items-center'><MdContactMail />Contact</Link></li>
     </>
 
     return (
