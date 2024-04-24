@@ -14,25 +14,22 @@ const Contact = () => {
                             <h1 className="text-5xl font-bold mt-5 text-center">Contact with me!</h1>
                             <p className="py-3 text-center">Anytime if you need me, Don't feel shy to contact with me!</p>
                         </div>
-                        <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100 px-3">
+                        <div className="card shrink-0 glass w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#FFDEE9] to-[#B5FFFC] px-3">
                             <form className="card-body">
                                 <div className="form-control">
                                     <label className="label">
-                                        <span className="label-text">Email</span>
+                                        <span className="label-text text-black">Your Message</span>
                                     </label>
-                                    <input type="email" placeholder="email" className="input input-bordered" required />
+                                    <input type="text" placeholder="Your Message to Abhoy" className="input input-bordered" required />
                                 </div>
                                 <div className="form-control">
                                     <label className="label">
-                                        <span className="label-text">Password</span>
+                                        <span className="label-text text-black">Your Email</span>
                                     </label>
-                                    <input type="password" placeholder="password" className="input input-bordered" required />
-                                    <label className="label">
-                                        <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
-                                    </label>
+                                    <input type="email" placeholder="xyz@gmail.com" className="input input-bordered" required />
                                 </div>
                                 <div className="form-control mt-6">
-                                    <button className="btn btn-primary">Login</button>
+                                    <button className="btn btn-glass btn-outline">Send</button>
                                 </div>
                             </form>
                         </div>
