@@ -4,7 +4,7 @@ import Banner from '../Banner/Banner';
 
 const Home = () => {
     return (
-        <div>
+        <div className='h-fit'>
             <Banner></Banner>
             <About></About>
         </div>
