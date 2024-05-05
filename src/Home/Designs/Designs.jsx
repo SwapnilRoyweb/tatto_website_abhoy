@@ -29,6 +29,11 @@ import design25 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.
 import design26 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.25 PM (4).jpeg'
 import design27 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.26 PM.jpeg'
 import design28 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.26 PM (1).jpeg'
+import design29 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.27 PM.jpeg'
+import design30 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.27 PM (1).jpeg'
+import design31 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.27 PM (2).jpeg'
+import design32 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.28 PM.jpeg'
+import design33 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.28 PM (1).jpeg'
 
 const Designs = () => {
     return (
@@ -337,6 +342,50 @@ const Designs = () => {
                 <Tilt>
                     <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
                         <figure><img src={design28} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design29} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design30} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design31} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design33} alt="Shoes" className='w-full h-full' /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Name!</h2>
                             <div className="card-actions h-full items-end justify-end">
