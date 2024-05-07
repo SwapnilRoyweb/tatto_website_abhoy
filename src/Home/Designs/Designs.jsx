@@ -51,6 +51,33 @@ import design47 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.
 import design48 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.41 PM (1).jpeg'
 import design49 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.41 PM (2).jpeg'
 import design50 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.42 PM.jpeg'
+import design51 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.42 PM (1).jpeg'
+import design52 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.43 PM.jpeg'
+import design53 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.43 PM (1).jpeg'
+import design54 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.44 PM.jpeg'
+import design55 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.44 PM (1).jpeg'
+import design56 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.44 PM (2).jpeg'
+import design57 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.45 PM.jpeg'
+import design58 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.45 PM (1).jpeg'
+import design59 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.46 PM.jpeg'
+import design60 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.46 PM (1).jpeg'
+import design61 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.46 PM (2).jpeg'
+import design62 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.46 PM (3).jpeg'
+import design63 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.47 PM.jpeg'
+import design64 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.47 PM (1).jpeg'
+import design65 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.47 PM (2).jpeg'
+import design66 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.48 PM.jpeg'
+import design67 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.48 PM (1).jpeg'
+import design68 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.48 PM (2).jpeg'
+import design69 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.49 PM.jpeg'
+import design70 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.49 PM (1).jpeg'
+import design71 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.03.49 PM (2).jpeg'
+import design72 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.05.48 PM.jpeg'
+import design73 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.05.48 PM (1).jpeg'
+import design74 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.05.48 PM (2).jpeg'
+import design75 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.05.49 PM.jpeg'
+import design76 from '../../assets/Design Sample/WhatsApp Image 2023-11-21 at 8.05.49 PM (1).jpeg'
+
 
 const Designs = () => {
     return (
@@ -590,6 +617,292 @@ const Designs = () => {
                 <Tilt>
                     <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
                         <figure><img src={design50} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design51} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design52} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design53} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design54} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design55} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design56} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design57} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design58} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design59} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design60} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design61} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design62} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design63} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design64} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design65} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design66} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design67} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design68} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design69} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design70} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design71} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design72} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design73} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design74} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design75} alt="Shoes" className='w-full h-full' /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Name!</h2>
+                            <div className="card-actions h-full items-end justify-end">
+                                <button className="btn btn-outline btn-circle text-2xl"><AiFillLike /></button>
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <Tilt>
+                    <div className="card w-96 h-60 shadow-xl image-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                        <figure><img src={design76} alt="Shoes" className='w-full h-full' /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Name!</h2>
                             <div className="card-actions h-full items-end justify-end">
