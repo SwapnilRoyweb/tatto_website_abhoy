@@ -1,22 +1,24 @@
 import React from 'react';
 import pic from '../../assets/IMG_20220409_191017_Bokeh.jpg'
 import Tilt from 'react-parallax-tilt';
+import certificate from '../../assets/logo & important picture/IMG_20230304_132533368~2.jpg'
 
 const About = () => {
     return (
         <div>
             <div className='bg-gradient-to-r from-black to-slate-700 flex flex-col lg:flex-row items-center lg:items-start justify-evenly gap-5 lg:gap-10 w-full min-h-screen'>
-                <div className='w-1/2'>
+                <div className='w-1/2 flex flex-col lg:flex-col-reverse'>
                     <Tilt>
-                        <img src={pic} alt="" className='w-11/12 h-fit mt-24 lg:my-24 mx-auto ml-5 lg:ml-20 rounded-3xl' />
+                        <img src={pic} alt="" className='w-11/12 h-fit mt-24 lg:mt-8 lg:my-24 mx-auto ml-5 lg:ml-20 rounded-3xl' />
                     </Tilt>
+                    <img src={certificate} alt="" className='h-full w-full mt-10 lg:mt-40 mb-0 lg:mb-8 lg:ml-16' />
                 </div>
                 <div className='w-1/2 text-white mx-20 mt-10 lg:mt-32'>
                     <div>
                         <h1 className='text-3xl font-bold mb-5'>Why me?</h1>
                         <p>Choosing a certified and skilled tattoo artist is essential to ensure your safety, receive a high-quality piece of body art and have a positive overall experience. Whileit may be tempting to cut costs by going to a cheaper, uncertified artist, it's crucial to prioritize your health and the long term appearance of your tattoo.</p>
                     </div>
-                    <div className='my-10'>
+                    <div className='my-8'>
                         <h1 className='text-4xl font-bold mb-5 text-center'>5 reasons why tattoo are expensive</h1>
                         <ul className='list-disc flex flex-col gap-3 text-justify mt-8'>
                             <li className='bg-gradient-to-b from-slate-500 to-blue-900 py-3 px-5 rounded-2xl'><span className='text-xl font-semibold'>Skill & Expertise :</span> A well-trained and experienced tattoo artist commands higher prices because of their skill, knowledge and ability to create intricate and high-quality designs. Tattooing is an art form and skilled artists invest significant time and effort into honing their craft.</li>
