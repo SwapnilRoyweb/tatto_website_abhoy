@@ -10,8 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@lordicon/element": "^1.6.0",
+    "@lordicon/react": "^1.6.0",
     "firebase": "^10.4.0",
     "localforage": "^1.10.0",
+    "lottie-web": "^5.12.2",
     "match-sorter": "^6.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -22,6 +25,8 @@
     "sort-by": "^1.2.0"
   },
   "devDependencies": {
+    "lottie-web": "^5.12.2",
+    "@lordicon/element": "^1.6.0",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",
