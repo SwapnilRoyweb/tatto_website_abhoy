@@ -81,6 +81,9 @@ const Banner = () => {
                         </div>
                     </div>
                     
+                    <div>
+                        <p className='text-white text-center'>swipe right left or click right left </p>
+                    </div>
                 </div>
             </div>
         </div>
