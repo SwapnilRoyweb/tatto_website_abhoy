@@ -50,7 +50,7 @@ const Banner = () => {
 
     return (
         <div className='min-h-screen bg-gradient-to-r from-black to-slate-700'>
-            <img src={background} className='min-h-screen w-screen' alt="" />
+            <img src={background} className='min-h-screen w-screen bg-fixed' alt="" />
             <div className='flex flex-col md:flex-row gap-5 lg:gap-8 items-center justify-center absolute -bottom-8 w-full h-full'>
                 <div className='mx-auto lg:ml-20 text-white w-80 md:w-96 lg:w-1/2 text-center lg:text-left lg:mt-0'>
                     <h1 className='text-3xl lg:text-5xl text-center lg:text-left font-bold text-white uppercase mb-2 md:mb-3'>A TOUCH of INK</h1>
