@@ -3,6 +3,8 @@ import contactImg from '../../assets/logo & important picture/Banner/2148121930-
 import { FaFacebook, FaWhatsapp, FaYoutube } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Tilt from 'react-parallax-tilt';
+import { IoLogoInstagram } from "react-icons/io5";
+import './Style2.css'
 
 const Contact = () => {
     return (
@@ -39,8 +41,8 @@ const Contact = () => {
 
                         <nav className="flex items-center justify-center gap-5 mt-8">
                             <button className='btn btn-md btn-square outline outline-2 outline-blue-500 bg-transparent text-blue-500 hover:bg-blue-600 hover:text-white'><Link to='https://www.facebook.com/TattooATouchOfInk?mibextid=ZbWKwL' className='text-2xl'><FaFacebook /></Link></button>
-                            <button className='btn btn-md btn-square outline outline-2 outline-green-400 bg-transparent text-green-400 hover:bg-green-500 hover:text-white'><Link to='' className='text-2xl'><FaWhatsapp /></Link></button>
-                            <button className='btn btn-md btn-square outline outline-2 outline-red-600 bg-transparent text-red-600 hover:bg-red-600 hover:text-white'><Link to='' className='text-2xl'><FaYoutube /></Link></button>
+                            <button className='btn btn-md btn-square hover:outline hover:outline-2 hover:outline-green-400 text-white bg-green-500'><Link to='' className='text-2xl'><FaWhatsapp /></Link></button>
+                            <button className='btn btn-md btn-square hover:outline hover:outline-2 text-white hover:outline-white gradient'><Link to='' className='text-3xl'><IoLogoInstagram /></Link></button>
                         </nav>
 
                     </div>
