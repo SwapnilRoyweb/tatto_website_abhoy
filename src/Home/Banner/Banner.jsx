@@ -55,7 +55,7 @@ const Banner = () => {
                 <div className='mx-auto lg:ml-20 text-white w-80 md:w-96 lg:w-1/2 text-center lg:text-left lg:mt-0'>
                     <h1 className='text-3xl lg:text-5xl text-center lg:text-left font-bold text-white uppercase mb-2 md:mb-3'>A TOUCH of INK</h1>
                     <p className='mb-2 md:mb-3 lg:mb-5 text-sm'>Choosing a certified and skilled tattoo artist is essential to ensure your safety, receive a high-quality piece of body art and have a positive overall experience.</p>
-                    <p className='mb-3 lg:mb-5 text-sm md:text-base lg:text-lg'>This is <span className='font-bold'>Abhoy Das Antu</span>. A Tattoo 3 Certified Artist. Tattoo 3 is an indian advanced tattoo training center. I have learned advanced necessary techniques to perform this art.</p>
+                    <p className='mb-3 lg:mb-5 text-sm md:text-base lg:text-lg'>This is <span className='font-bold'>Abhoy Das Antu</span>. 3 Cube Tattoo Certified Artist. 3 Cube Tattoo is an indian advanced tattoo training center. I have learned advanced necessary techniques to perform this art.</p>
                     <button className='mt-2 btn btn-outline btn-error btn-wide transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>Click me <GiSelfLove></GiSelfLove></button>
                 </div>
                 {/* <img src={img1} alt="" className='mr-5 lg:mr-20' /> */}

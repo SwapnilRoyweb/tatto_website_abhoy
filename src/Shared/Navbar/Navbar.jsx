@@ -11,7 +11,7 @@ import { GrContactInfo } from "react-icons/gr";
 const Navbar = () => {
 
     const navItems = <>
-        <li><Link to='/' className='flex items-center text-base'><FaHome/>Home</Link></li>
+        <li><Link to='/' className='flex items-center text-base'><FaHome />Home</Link></li>
         <li><Link to='/designs' className='flex items-center'><SiAlchemy />Designs</Link></li>
         <li><Link to='/myWorks' className='flex items-center'><MdWorkspacePremium />My Works</Link></li>
         <li><Link to='/about' className='flex items-center'><RiContactsFill />About Me</Link></li>
@@ -21,10 +21,12 @@ const Navbar = () => {
     return (
         <div className="navbar fixed bg-black bg-opacity-30 text-white">
             <div className="navbar-start">
-                <div className='flex flex-col items-center justify-center ml-16'>
-                    <img src={logo} alt="" className='h-12' />
-                    <a className="font-bold text-xs">A Touch of INK</a>
-                </div>
+                <Link to='/'>
+                    <div className='flex flex-col items-center justify-center ml-16'>
+                        <img src={logo} alt="" className='h-12' />
+                        <p className="font-bold uppercase text-xs">A Touch of INK</p>
+                    </div>
+                </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

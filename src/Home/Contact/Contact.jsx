@@ -41,8 +41,8 @@ const Contact = () => {
 
                         <nav className="flex items-center justify-center gap-5 mt-8">
                             <button className='btn btn-md btn-square outline outline-2 outline-blue-500 bg-transparent text-blue-500 hover:bg-blue-600 hover:text-white'><Link to='https://www.facebook.com/TattooATouchOfInk?mibextid=ZbWKwL' className='text-2xl'><FaFacebook /></Link></button>
-                            <button className='btn btn-md btn-square hover:outline hover:outline-2 hover:outline-green-400 text-white bg-green-500'><Link to='' className='text-2xl'><FaWhatsapp /></Link></button>
-                            <button className='btn btn-md btn-square hover:outline hover:outline-2 text-white hover:outline-white gradient'><Link to='' className='text-3xl'><IoLogoInstagram /></Link></button>
+                            <button className='btn btn-md btn-square outline outline-2 outline-green-400 bg-transparent text-green-400 hover:bg-green-500 hover:text-white'><Link to='https://wa.me/qr/O7MJFVVHQ3HJH1' className='text-2xl'><FaWhatsapp /></Link></button>
+                            <button className='btn btn-md btn-square outline outline-2 outline-white bg-transparent text-white hover:outline-white hover:bg-gradient-to-r from-purple-700 to-pink-600'><Link to='https://www.instagram.com/mr_avuu?igsh=MXQ1bmsxMWhscDdnMA==' className='text-3xl'><IoLogoInstagram /></Link></button>
                         </nav>
 
                     </div>

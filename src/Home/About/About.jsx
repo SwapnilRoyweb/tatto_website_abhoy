@@ -9,15 +9,15 @@ const About = () => {
             <div className='bg-gradient-to-r from-black to-slate-700 flex flex-col lg:flex-row items-center lg:items-start justify-evenly gap-5 lg:gap-10 w-full min-h-screen'>
                 <div className='w-1/2 flex flex-col lg:flex-col-reverse'>
                     <Tilt>
-                        <img src={pic} alt="" className='w-11/12 h-fit mt-24 lg:mt-8 lg:my-24 mx-auto ml-5 lg:ml-20 rounded-3xl' />
+                        <img src={pic} alt="" className='w-11/12 h-5/6 mt-28 lg:mt-96 ml-5 lg:ml-20 rounded-3xl' />
                     </Tilt>
-                    <img src={certificate} alt="" className='h-full w-full mt-10 lg:mt-40 mb-0 lg:mb-8 lg:ml-16' />
                 </div>
-                <div className='w-1/2 text-white mx-20 mt-10 lg:mt-32'>
+                <div className='w-1/2 text-white mx-20 mt-5 lg:mt-24'>
                     <div>
                         <h1 className='text-3xl font-bold mb-5'>Why me?</h1>
                         <p>Choosing a certified and skilled tattoo artist is essential to ensure your safety, receive a high-quality piece of body art and have a positive overall experience. Whileit may be tempting to cut costs by going to a cheaper, uncertified artist, it's crucial to prioritize your health and the long term appearance of your tattoo.</p>
                     </div>
+                    <img src={certificate} alt="" className='h-full w-full mt-5' />
                     <div className='my-8'>
                         <h1 className='text-4xl font-bold mb-5 text-center'>5 reasons why tattoo are expensive</h1>
                         <ul className='list-disc flex flex-col gap-3 text-justify mt-8'>
